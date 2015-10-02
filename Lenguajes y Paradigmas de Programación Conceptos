@@ -1,0 +1,28 @@
+Tarea Lenguajes y Paradigmas de Programación
+Variable estática: Es un tipo de variable que ha sido ubicada de manera estática y que su tiempo de vida se extiende durante toda la ejecución del programa.
+
+Ciclo de vida de las variables (C):
+1. En la declaración se reserva el espacio necesario para que se puedan comenzar a utilizar (digamos que se avisa de su futura existencia)
+2. Se le asigna su primer valor (la variable nace)
+3. Se la utiliza en diversas sentencias (no se debe leer su contenido sin haberla asignado ese primer valor).
+4. Cuando finaliza el bloque en el que fue declarada, la variable muere. Es decir, se libera el espacio que ocupa esa variable en memoria. No se la podrá volver a utilizar.
+
+Memoria dinámica: Es memoria que se reserva en tiempo de ejecución. Su principal ventaja frente a la estática, es que su tamaño puede variar durante la ejecución del programa (El programador se encarga de liberar esta memoria cuando no se necesite más). El uso de memoria dinámica es necesario cuando a priori no conocemos el número de elementos a tratar.
+
+Clase: Las clases se utilizan para representar entidades o conceptos, como los sustantivos en el lenguaje. Cada clase es un modelo que define un conjunto de variables, el estado, y métodos apropiados para operar con dichos datos el comportamiento. Son el pilar fundamental de la programación orientada a objetos.
+
+Objeto: Un objeto es una unidad dentro de un programa de computadora que consta de un estado y de un comportamiento, que a su vez constan respectivamente de datos almacenados y de tareas realizables durante el tiempo de ejecución. Un objeto puede ser creado instanciando una clase.
+
+Instanciación: Se refiere a una realización específica de una clase o prototipo determinados un objeto es una instancia de una clase. Esto es, un miembro de una clase que tiene atributos en lugar de variables.
+
+Herencia: La herencia es uno de los mecanismos de los lenguajes de programación orientada a objetos basados en clases, por medio del cual una clase se deriva de otra de manera que extiende su funcionalidad. Es especialmente útil para reutilizar código y la extensibilidad
+
+Sobrecarga (Override): Sobrecarga es la capacidad de un lenguaje de programación, que permite nombrar con el mismo identificador diferentes variables u operaciones. En programación orientada a objetos la sobrecarga se refiere a la posibilidad de tener dos o más funciones con el mismo nombre pero funcionalidad diferente. Es decir, dos o más funciones con el mismo nombre realizan acciones diferentes.
+
+Ensombrecimiento (Shadowing): Se llama shadowing al hecho de que en una clase una variable miembro y una variable local definida en un método miembro, se llamen igual. Es decir, la posibilidad de que 2 variables tengan el mismo nombre siempre y cuando pertenezcan a diferentes
+
+Ciclo de vida de las variables: Se dividen en 3 tipos:
+Variables de instancia (u objeto): Se crean cuando se crea el objeto que las contiene y se inicializan por defecto si no se hace de modo explícito. Se destruyen cuando el recolector de basura no encuentra referencias activas para el objeto.
+Variables estáticas (o de clase): Se crean cuando la variable se usa por primera vez. Se inicializan por defecto si no se hace de modo explícito. Suelen existir para el resto del programa.
+Variables locales (o de bloque): Creadas en la sentencia en la que están definidas. No se inicializan por defecto. Se destruye al salir del bloque.
+
